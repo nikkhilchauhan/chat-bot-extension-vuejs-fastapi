@@ -10,5 +10,5 @@
 
 # How to run
 
-1. Frontend: npm run dec
+1. Frontend: npm run dev
 2. FastApi: pipenv shell, uvicorn main:app --reload
