@@ -1,0 +1,19 @@
+{
+  "name": "Chat-bot",
+  "version": "1.0.0",
+  "description": "Simple Chat-bot with VueJs & fastApi.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "icons": {
+    "16": "images/icon-16x16.png",
+    "48": "images/icon-48x48.png",
+    "128": "images/icon-128x128.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon-48x48-off.png"
+  },
+  "manifest_version": 3
+}

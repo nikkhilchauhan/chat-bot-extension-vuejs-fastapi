@@ -1,0 +1,134 @@
+#app {
+  border: 2px solid orange;
+}
+.main-popup-container {
+  width: 350px;
+  height: 550px;
+  padding: 12px;
+}
+
+// chat starts
+
+#chat-messages {
+  height: 80%;
+  overflow-y: scroll;
+}
+#chat-messages div.message {
+  padding: 0 0 30px 58px;
+  clear: both;
+  margin-bottom: 45px;
+}
+#chat-messages div.message.right {
+  padding: 0 58px 30px 0;
+  margin-right: -19px;
+  margin-left: 19px;
+}
+.senderBubble {
+  background: #f0f4f7;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 13px;
+  border-radius: 5px 5px 5px 0px;
+  color: #8495a3;
+  position: relative;
+  float: right;
+  max-width: 254px;
+  word-break: break-all;
+  margin: 15px 0;
+}
+.receiverBubble {
+  background: #f0f4f7;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 13px;
+  border-radius: 5px 5px 5px 0px;
+  color: #8495a3;
+  position: relative;
+  float: left;
+  max-width: 254px;
+  word-break: break-all;
+  margin: 15px 0;
+}
+#sendmessage {
+  height: 60px;
+  border-top: 1px solid #e7ebee;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 350px;
+  background: #fff;
+  padding-bottom: 50px;
+  width: 100%;
+  color: black;
+}
+#sendmessage input {
+  color: black;
+  width: 90%;
+  background: #fff;
+  margin: 21px 0 0 21px;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
+  color: #aab8c2;
+}
+#sendmessage input:focus {
+  outline: 0;
+}
+#sendmessage button {
+  background: #fff url('../images/delete.png') 0 -41px no-repeat;
+  background-position: 0 0;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  top: 23px;
+  border: none;
+}
+#sendmessage button:hover {
+  cursor: pointer;
+  background-position: 0 0;
+}
+#sendmessage button:focus {
+  outline: 0;
+}
+.textDanger {
+  color: red;
+}
+// chat ends
+
+// bottom-starts
+.action-btn-container {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 12px;
+  width: 326px;
+  display: flex;
+  justify-content: flex-end;
+}
+.action-btn {
+  color: black;
+  font-size: 12px;
+  border: 1px solid blueviolet;
+  border-radius: 15px;
+  padding: 3px 8px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.action-btn:hover {
+  color: white;
+  background-color: blue;
+}
+//bottom-ends
+.search-msg {
+  margin-bottom: 3px;
+  border-bottom: 1px solid orange;
+}
+.readmorebtn {
+  font-size: 11px;
+  color: blue;
+  cursor: pointer;
+}
